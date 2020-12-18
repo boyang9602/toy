@@ -4,79 +4,71 @@ import org.junit.Ignore;
 import org.junit.jupiter.api.Test;
 
 public class TestCase1 {
-
-	// ADD@Test
+	@Test
 	public void test1() {
 		
 	}
 
-	// DEL@Test
-	@Test
 	public void test2() {
 		
 	}
 
-	//DEL@Ignore
-	@Ignore
 	@Test
 	public void test3() {
 		
 	}
 
-	// CO@Test
-	@Test
+//	@Test
 	public void test4() {
 		
 	}
 
-	//UNCO@Test
-	//@Test
+	@Test
 	public void test5() {
 		
 	}
-
-	// UNCO@Ignore
-	//@Ignore
+	
 	@Test
+	@Ignore
 	public void test6() {
 		
 	}
 
-//	@Test
-//	public void test7() {
-//		
-//	}
-/*
+	@Test
+	public void test7() {
+		
+	}
+
 	@Test
 	public void test8() {
 		
 	}
-*/
-	// change @Test params, testng case
-	@Test(enabled=false)
+
+	@Test
 	public void test9() {
 		
 	}
 
-	// DEL test case
-	@Test
-	public void test10() {
-		
-	}
+//	@Test
+//	public void test11() {
+//		
+//	}
 
-	// CO test case
-	@Test
-	public void test11() {
-		
-	}
-
-	// no change
 	@Test
 	public void test12() {
 		
 	}
-	
-	@Test void test14() {
+
+	@Test
+	public void test13() {
 		
 	}
+	
+	@Test void test15() {
+		
+	}
+
+	// @Test void test16() {
+	// 
+	// }
 }

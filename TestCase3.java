@@ -2,7 +2,7 @@ package toy;
 
 import org.junit.jupiter.api.Test;
 
-public class TestCase2 {
+public class TestCase3 {
 
 	@Test
 	void test1() {
@@ -13,12 +13,13 @@ public class TestCase2 {
 //		
 //	}
 	
-//	@Test void test3() {
-//		
-//	}
+	@Test void test3() {
 	
-	@Test
-	void test4() {
-		
 	}
+	
+	/*
+	 * @Test void test4() {
+	 * 
+	 * }
+	 */
 }
